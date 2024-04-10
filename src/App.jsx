@@ -6,7 +6,7 @@ import StepperControl from './components/StepperControl'
 import { StepperContext } from './components/context/stepperContext'
 
 function App() {
-  const [currentStep, setCurrentStep] = useState(1)
+  const [currentStep, setCurrentStep] = useState(0)
   const [userInfo, setUserInfo] = useState("")
   const [finalInfo, setFinalInfo] = useState([])
   const steps = [
